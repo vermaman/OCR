@@ -5,9 +5,9 @@ import net.sourceforge.tess4j.*;
  
 public class test {
 public static void main(String[] args) {
-File imageFile = new File("C:\\Users\\Darshika\\Desktop\\Workspace\\Tess4J\\images\\eurotext.pdf");
+File imageFile = new File("File(Image/PDF) Path");
 Tesseract instance = new Tesseract(); //
-instance.setDatapath("C:\\Users\\Darshika\\Desktop\\Workspace\\Tess4J\\tessdata");
+instance.setDatapath("Tess4J\\tessdata");
  
 try {
  
